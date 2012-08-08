@@ -25,6 +25,11 @@ This add-on is based on the basic structure of the DMX512 add-on by Chris O'Shea
 and also uses code from that add-on for the USB PRO protocol. As second
 reference, the Enttec USB PRO example was used (see below in the links section).
 
+LICENSE
+-------
+This add-on is released under the Apache 2.0 License. For more details, see
+the file LICENSE.
+
 OS SPECIFIC NOTES
 -----------------
 

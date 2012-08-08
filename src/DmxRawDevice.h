@@ -1,4 +1,7 @@
 /*
+ * ofxGenericDmx - openFrameworks addon - DmxRawDevice.h
+ * Copyright 2010-2012, W. Reckman, T. Olden
+ *
  * NOTE: this code has not been tested!
  */
 #ifndef DMX_RAW_DEVICE_H

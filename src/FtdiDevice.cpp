@@ -1,4 +1,7 @@
 /*
+ * ofxGenericDmx - openFrameworks addon - FtdiDevice.cpp
+ * Copyright 2010-2012, W. Reckman, T. Olden
+ *
  * TODO:
  * - (open) Implement retry mechanism for opening device with 750/1000 ms in between?
  * - (open) add variant wrapping ftdi_usb_open_string

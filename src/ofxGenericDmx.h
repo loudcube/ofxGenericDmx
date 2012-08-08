@@ -1,4 +1,6 @@
 /*
+ * ofxGenericDmx - openFrameworks addon - OfxGenericDmx.h
+ * Copyright 2010-2012, W. Reckman, T. Olden
  */
 #ifndef OFX_GENERIC_DMX_H
 #define OFX_GENERIC_DMX_H

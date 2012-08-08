@@ -1,4 +1,6 @@
 /*
+ * ofxGenericDmx - openFrameworks addon - FtdiDevice.h
+ * Copyright 2010-2012, W. Reckman, T. Olden
  */
 #ifndef FTDI_DEVICE_H
 #define FTDI_DEVICE_H

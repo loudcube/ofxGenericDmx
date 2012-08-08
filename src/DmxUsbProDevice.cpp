@@ -1,4 +1,7 @@
 /*
+ * ofxGenericDmx - openFrameworks addon - DmxUsbProDevice.cpp
+ * Copyright 2010-2012, W. Reckman, T. Olden
+ *
  * TODO:
  * - force sending a minimum of 25 channels? (by padding 0-valued channels)
  *   this may be necessary since the API mentions a mininum size of 25 bytes on page 5

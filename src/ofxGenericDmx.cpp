@@ -1,6 +1,6 @@
 /*
- * //openFrameworks DMX Usb Pro addon.
- * //Copyright 2010, W. Reckman. All rights reserved.
+ * ofxGenericDmx - openFrameworks addon - ofxGenericDmx.cpp
+ * Copyright 2010-2012, W. Reckman, T. Olden
  */
 #include <unistd.h> /* for usleep() */
 #include <typeinfo>

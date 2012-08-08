@@ -1,4 +1,6 @@
 /*
+ * ofxGenericDmx - openFrameworks addon - DmxUsbProDevice.h
+ * Copyright 2010-2012, W. Reckman, T. Olden
  */
 #ifndef DMX_USB_PRO_DEVICE_H
 #define DMX_USB_PRO_DEVICE_H

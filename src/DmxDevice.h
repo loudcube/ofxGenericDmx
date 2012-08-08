@@ -1,3 +1,7 @@
+/*
+ * ofxGenericDmx - openFrameworks addon - DmxDevice.h
+ * Copyright 2010-2012, W. Reckman, T. Olden
+ */
 #ifndef DMX_DEVICE_H
 #define DMX_DEVICE_H
 

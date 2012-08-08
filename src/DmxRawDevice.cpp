@@ -1,4 +1,7 @@
 /*
+ * ofxGenericDmx - openFrameworks addon - DmxRawDevice.cpp
+ * Copyright 2010-2012, W. Reckman, T. Olden
+ *
  * NOTE: this code has not been tested!
  */
 #include <assert.h>

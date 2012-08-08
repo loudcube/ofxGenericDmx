@@ -1,4 +1,7 @@
 /*
+ * ofxGenericDmx - openFrameworks addon - DmxDevice.cpp
+ * Copyright 2010-2012, W. Reckman, T. Olden
+ *
  * This is the abstract base class for DMX devices. It provides a function to
  * open and close devices, read and write data and retrieve information about
  * connected FTDI USB devices.
