@@ -9,6 +9,17 @@
 #include <assert.h>
 #include "FtdiDevice.h"
 
+# define timeradd(a, b, result)						      \
+  do {									      \
+    (result)->tv_sec = (a)->tv_sec + (b)->tv_sec;			      \
+    (result)->tv_usec = (a)->tv_usec + (b)->tv_usec;			      \
+    if ((result)->tv_usec >= 1000000)					      \
+      {									      \
+    ++(result)->tv_sec;						      \
+    (result)->tv_usec -= 1000000;					      \
+      }									      \
+  } while (0)
+
 /* public constants */
 const int FtdiDevice::RV_DEVICE_NOT_OPEN = -19999;
 
@@ -83,8 +94,15 @@ bool FtdiDevice::open( const char* description, const char* serial, int index )
 				//do not free context since that would also free the error message
 				hasFtdiError_ = true;
 			}
-			usbInfo_ = new usbInformation( *( di.usbInfo ) );
-			success = true;
+
+            if ( di.usbInfo != NULL)
+            {
+                usbInfo_ = new usbInformation( *( di.usbInfo ) );
+            }
+            else {
+                usbInfo_ = new usbInformation();
+            }
+            success = true;
 		}
 	} else {
 		hasFtdiError_ = ( devs == 0 );
