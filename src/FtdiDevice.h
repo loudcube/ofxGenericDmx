@@ -43,9 +43,9 @@ public:
 		char* const serial;
 		
         usbInformation()
-        : manufacturer( "USB manufacturer info is not initialized" ),
-          description( "USB description is not initialized" ),
-          serial( "USB Serial is not initialized" )
+        : manufacturer( new char[USB_INFO_FIELD_LENGTH] ),
+          description( new char[USB_INFO_FIELD_LENGTH] ),
+          serial( new char[USB_INFO_FIELD_LENGTH] )
         {
 
         }
